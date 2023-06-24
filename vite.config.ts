@@ -6,7 +6,10 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      '@public': '/public'
+      '@public': '/public',
+      '@atoms': '/src/components/atoms',
+      '@molecules': '/src/components/molecules',
+      '@organisms': '/src/components/organisms',
     }
   }
 })

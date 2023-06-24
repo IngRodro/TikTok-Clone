@@ -22,6 +22,9 @@
     "baseUrl": ".",
     "paths": {
       "@public/*": ["public/*"],
+      "@atoms/*": ["src/components/atoms/*"],
+      "@molecules/*": ["src/components/molecules/*"],
+      "@organisms/*": ["src/components/organisms/*"],
     },
   },
   "include": [
